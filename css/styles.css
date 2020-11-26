@@ -1,0 +1,35 @@
+section#bc_section {
+  max-width: 1110px;
+  width: 100%;
+  height: auto;
+}
+.list-btn {
+  padding: 0 2%;
+  margin: 0px;
+}
+.list-btn #content-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.list-btn #content-btns .item-btn {
+  position: relative;
+  margin: 0.7%;
+}
+
+.list-btn #content-btns .item-btn .item-img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}

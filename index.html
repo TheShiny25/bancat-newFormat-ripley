@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Bancat Test</title>
+    <script>
+
+        let data_bancat = async ()=>{
+            try {
+                let response = await fetch('./list-bc.json');
+                let data = await response.json();
+                /*Lista de botones*/
+                let list_botones = '';
+                let url_bancat = data.url_bancat;
+                data.list_btn.forEach(btn => {
+                    list_botones +=`<div class="item-btn active">
+                                        <a href="${btn.url}" data-seccion="" target="_top">
+                                            <div class="item-img activo">
+                                                <img class="uno" src="${url_bancat+'images/'+btn.imagen}" alt="">
+                                                <span class="texto">${btn.nombre}</span>
+                                            </div>
+                                        </a>
+                                    </div>`;
+                });
+                document.getElementById('content-btns').innerHTML = list_botones;
+                /**/
+            } catch (error) {
+                console.log("Error ==> ", error)
+            }   
+        }
+        data_bancat();
+
+    </script>
+</head>
+<body>
+    <section id="bc_section">
+        <div class="row">
+            <div class="banner-principal col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <img src="img/sponsor-desk.png" alt="">
+            </div>
+        </div>
+        <div class="row list-btn">
+            <div id="content-btns">                
+            </div>
+        </div>
+
+    </section>
+    <script src="https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/js/jquery-3.2.1.min.js"></script>
+    <script>
+    </script>
+</body>
+</html>
