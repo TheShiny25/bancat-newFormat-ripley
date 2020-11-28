@@ -1,64 +1,65 @@
 {
-        "title":"Banner Catalogo - Victoria Secret",
-        "url_bancat":"https://home.ripley.com.pe/minisitios/home/banner_catalogo/BC_victoria_secret/",
-        "cant_btn": 7,
-        "list_banner":[
-            {
-             "banner_desk": "sponsor-desk.png",
-             "banner_mob": "sponsor-mob.png"
-            }
-        ],
-        "list_btn":[
-            {
-                "nombre":"Ver Todo",
-                "url" :"https://simple.ripley.com.pe/tienda/anukay-2191",
-                "imagen":"1.png",
-                "state":true,
-                "text-taggeo":""
-            },
-            {
-                "nombre":"Test 1",
-                "url" :"https://simple.ripley.com.pe/tienda/anukay-2191",
-                "imagen":"1.png",
-                "state":false,
-                "text-taggeo":""
-            },
-            {
-                "nombre":"Test 2",
-                "url" :"https://simple.ripley.com.pe/tienda/anukay-2191",
-                "imagen":"1.png",
-                "state":false,
-                "text-taggeo":""
-            },
-            {
-                "nombre":"Test 3",
-                "url" :"https://simple.ripley.com.pe/tienda/anukay-2191",
-                "imagen":"1.png",
-                "state":false,
-                "text-taggeo":""
-            },
-            {
-                "nombre":"Test 4",
-                "url" :"https://simple.ripley.com.pe/tienda/anukay-2191",
-                "imagen":"1.png",
-                "state":false,
-                "text-taggeo":""
-            },
-            {
-                "nombre":"Test 5",
-                "url" :"https://simple.ripley.com.pe/tienda/anukay-2191",
-                "imagen":"1.png",
-                "state":false,
-                "text-taggeo":""
-            },
-            {
-                "nombre":"Test 6",
-                "url" :"https://simple.ripley.com.pe/tienda/anukay-2191",
-                "imagen":"1.png",
-                "state":false,
-                "text-taggeo":""
-            }
-        ]
-
+  "title": "Banner Catalogo - Victoria Secret",
+  "url_bancat": "https://home.ripley.com.pe/minisitios/home/test-ripley/bancat-v2/",
+  "cant_btn": 7,
+  "cant_slider": 1,
+  "list_slider": [
+    {
+      "url": "#",
+      "img_desk": "sponsor-desk.png",
+      "img_mob": "sponsor-mob.png"
     }
-
+  ],
+  "list_btn": [
+    {
+      "nombre": "Ver Todo",
+      "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
+      "imagen": "1.png",
+      "state": true,
+      "text-taggeo": ""
+    },
+    {
+      "nombre": "Prueba 1",
+      "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
+      "imagen": "2.png",
+      "state": false,
+      "text-taggeo": ""
+    },
+    {
+      "nombre": "Prueba 2",
+      "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
+      "imagen": "3.png",
+      "state": false,
+      "text-taggeo": ""
+    },
+    {
+      "nombre": "Prueba 3",
+      "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
+      "imagen": "4.png",
+      "state": false,
+      "text-taggeo": ""
+    },
+    {
+      "nombre": "Prueba 4",
+      "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
+      "imagen": "5.png",
+      "state": false,
+      "text-taggeo": ""
+    },
+    {
+      "nombre": "Prueba 5",
+      "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
+      "imagen": "6.png",
+      "state": false,
+      "text-taggeo": ""
+    },
+    {
+      "nombre": "Prueba 6",
+      "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
+      "imagen": "7.png",
+      "state": false,
+      "text-taggeo": ""
+    }
+    
+  ]
+}
