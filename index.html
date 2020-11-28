@@ -48,6 +48,7 @@
     </script>
     <script>
         let config_carrusel =(view_cant_btn)=>{
+            console.log(view_cant_btn);
             init([
                 'https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/js/slick.min.js',
             ], function($, window, document, undefined) {
@@ -60,7 +61,7 @@
                             dots: false,
                             infinite: false,
                             speed: 300,
-                            slidesToShow: 7,
+                            slidesToShow: cant_btns,
                             slidesToScroll: 1,
                                 responsive: [{
                                    breakpoint: 768,

@@ -16,7 +16,7 @@ section#bc_section {
   display: inline-block;
   position: relative;
 }
-section > .row {
+section#bc_section > .row {
   margin: 0px;
   padding: 0px;
 }
