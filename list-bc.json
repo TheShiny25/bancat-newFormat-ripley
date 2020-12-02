@@ -7,58 +7,65 @@
     {
       "url": "#",
       "img_desk": "sponsor-desk.png",
-      "img_mob": "sponsor-mob.png"
+      "img_mob": "sponsor-mob.png",
+      "text_taggeo": "Banner 01"
+    },
+    {
+      "url": "https://simple.ripley.com.pe/",
+      "img_desk": "sponsor5-desk.png",
+      "img_mob": "sponsor5-mob.png",
+      "text_taggeo": "Banner 02"
     }
   ],
   "list_btn": [
     {
-      "nombre": "Ver Todo",
+      "nombre": "Ver Tódo",
       "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
       "imagen": "1.png",
       "state": true,
-      "text-taggeo": ""
+      "text_taggeo": "Ver Tódo 7 - Victoría Secret"
     },
     {
       "nombre": "Prueba 1",
       "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
       "imagen": "2.png",
       "state": false,
-      "text-taggeo": ""
+      "text_taggeo": "Ver Todo 6 - Victoria Secret"
     },
     {
       "nombre": "Prueba 2",
       "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
       "imagen": "3.png",
       "state": false,
-      "text-taggeo": ""
+      "text_taggeo": "Ver Todo 5 - Victoria Secret"
     },
     {
       "nombre": "Prueba 3",
       "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
       "imagen": "4.png",
       "state": false,
-      "text-taggeo": ""
+      "text_taggeo": "Ver Todo 4 - Victoria Secret"
     },
     {
       "nombre": "Prueba 4",
       "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
       "imagen": "5.png",
       "state": false,
-      "text-taggeo": ""
+      "text_taggeo": "Ver Todo 3 - Victoria Secret"
     },
     {
       "nombre": "Prueba 5",
       "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
       "imagen": "6.png",
       "state": false,
-      "text-taggeo": ""
+      "text_taggeo": "Ver Todo 2 - Victoria Secret"
     },
     {
       "nombre": "Prueba 6",
       "url": "https://simple.ripley.com.pe/tienda/anukay-2191",
       "imagen": "7.png",
       "state": false,
-      "text-taggeo": ""
+      "text_taggeo": "Ver Todo 1 - Victoria Secret"
     }
   ]
 }

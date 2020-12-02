@@ -1,10 +1,14 @@
 @font-face {
   font-family: "Futura";
   src: url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Medium.eot");
-  src: url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Medium.eot?iefix") format("eot"),
-    url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Medium.woff") format("woff"),
-    url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Medium.ttf") format("truetype"),
-    url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Mediu.svg#webfont90E2uSjN") format("svg");
+  src: url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Medium.eot?iefix")
+      format("eot"),
+    url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Medium.woff")
+      format("woff"),
+    url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Medium.ttf")
+      format("truetype"),
+    url("https://home.ripley.com.pe/minisitios/home/campanas/bc_repositorio/fonts/Futura-Mediu.svg#webfont90E2uSjN")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,6 +36,11 @@ section .row .banner-principal {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.list-btn #content-btns div.active img.btn_image_hover{
+  opacity: 1!important;
+}
+
 .list-btn #content-btns a {
   text-decoration: none;
   color: #000000;
@@ -53,6 +62,11 @@ section .row .banner-principal {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
+}
+.list-btn #content-btns .item-btn .item-img > img.btn_image_hover {
+  position: absolute;
+  top: 0;
+  opacity: 0;
 }
 .slick-track {
   width: 1064px;
