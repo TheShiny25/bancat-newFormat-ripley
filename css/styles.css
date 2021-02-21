@@ -67,7 +67,21 @@ section .row .banner-principal {
   position: absolute;
   top: 0;
   opacity: 0;
+  left: 0;
+  right: 0;
+  font-weight: bold !important;
 }
 .slick-track {
   width: 1064px;
+}
+
+@media screen and (max-width:769px){
+  .space_btn{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+  .list-btn #content-btns .item-btn{
+    margin: 0px;
+    width: calc(100% / 3);
+  }
 }

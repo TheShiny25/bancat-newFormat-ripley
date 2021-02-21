@@ -62,5 +62,3 @@ const data_bancat = async ()=>{
     }   
 }
 data_bancat();
-
-/*Hover*/
