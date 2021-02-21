@@ -4,14 +4,18 @@ import '../css/styles.css';
 import {config_carrusel} from './goCarrusel.js';
 import {RemoveAccents,loadTaggeoDA_GA} from './send_data.js';
 
-const get_dataBCInfo= async()=>{
+let spinner = document.getElementById("spinner");
+spinner.removeAttribute('hidden');
+console.log("ejecuto");
 
+const get_dataBCInfo= async()=>{
     let getdataBCInfo = dataBcInfo;
     return getdataBCInfo;
 }
 
 const data_bancat = async ()=>{
     try {
+        
         const responseDataBCInfo = await get_dataBCInfo();
         const responseParamURL= responseDataBCInfo.urlJsonBC;
         const responseParamPosSlider =responseDataBCInfo.posicionSlider;
@@ -41,9 +45,11 @@ const data_bancat = async ()=>{
                                 </a>
                             </div>`;
         });
-        document.getElementById('content-btns').innerHTML = list_botones;
-
+        document.getElementById('content-btns').innerHTML = list_botones;   
         let goCarrusel = await config_carrusel(data.cant_btn);
+        setTimeout(() => {
+            spinner.setAttribute('hidden', '');    
+        }, 1000);
         let loadTaggeo = loadTaggeoDA_GA();
         
         let btn_class = document.querySelectorAll('.item-img');

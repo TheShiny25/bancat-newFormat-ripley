@@ -40,4 +40,3 @@ export function config_carrusel(view_cant_btn){
         });
     });
 }
-
